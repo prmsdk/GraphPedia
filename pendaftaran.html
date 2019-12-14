@@ -42,11 +42,11 @@
       <div>
         <div class="card-daftar">
           <h2>Pendaftaran</h2>
-          <form action="" method="post">
+          <form action="index.html" method="post">
             <div><label for="nama">Nama :</label></div>
-            <input type="text" name="nama" id="nama" placeholder="Masukkan Nama Anda" required>
+            <input type="text" name="nama" id="nama" placeholder="Masukkan Nama Anda" minlength="2" required>
             <div><label for="email">Email :</label></div>
-            <input type="text" name="email" id="email" placeholder="Masukkan Email Anda" required>
+            <input type="email" name="email" id="email" placeholder="Masukkan Email Anda" required>
             <div><label for="jeniskelamin">Jenis Kelamin :</label></div>
             <div>
             <select name="jeniskelamin" id="jeniskelamin" required>
@@ -56,13 +56,13 @@
             </select>
             </div>
             <div><label for="no_hp">Nomor HP :</label></div>
-            <input type="text" name="no_hp" id="no_hp" placeholder="Masukkan Nomor HP Anda" required>
+            <input type="text" name="no_hp" id="no_hp" placeholder="Masukkan Nomor HP Anda" minlength="10" required>
             <div><label for="username">Username :</label></div>
-            <input type="text" name="username" id="username" placeholder="Masukkan Username Anda" required>
+            <input type="text" name="username" id="username" placeholder="Masukkan Username Anda" minlength="6" required>
             <div><label for="password">Password :</label></div>
-            <input type="text" name="password" id="password" placeholder="Masukkan Password Anda" required>
+            <input type="text" name="password" id="password" placeholder="Masukkan Password Anda" minlength="8" required>
             <div><label for="repassword">Verifikasi Password :</label></div>
-            <input type="text" name="repassword" id="repassword" placeholder="Masukkan kembali Password Anda" required>
+            <input type="text" name="repassword" id="repassword" placeholder="Masukkan kembali Password Anda" minlength="8" required>
             <input type="submit" name="daftar" value="Daftar">
           </form>
         </div>
