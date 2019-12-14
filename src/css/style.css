@@ -65,6 +65,9 @@ html{
   margin-top:-20px;
   box-sizing: border-box;
 }
+.sticky nav ul li a{
+  color: #fff;
+}
 #logo{
   z-index: 2;
   position: relative;
@@ -130,6 +133,9 @@ nav ul li{
   font-size:20px;
   margin-top:-20px;
   box-sizing: border-box;
+}
+nav ul li a{
+  color:rgb(71, 21, 94);
 }
 nav img{
   /* margin: 7px 15px 0px 15px; */
