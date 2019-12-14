@@ -1,0 +1,176 @@
+html{
+  scroll-behavior: smooth;
+}
+#logo-logo{
+  z-index: 2;
+  position: relative;
+  float: left;
+  background-color: rgba(86, 7, 105, 1);
+  width: 30%;
+  padding:10px;
+  height: 69px;
+  box-sizing: border-box;
+	text-align:left;
+}
+#logo-logo a{
+  text-decoration: none;
+}
+.graphpedia-logo{
+  float: left;
+  /* display: inline-block; */
+  padding-right: 15px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.graphpedia-logo img{
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.graphpedia-word{
+  /* display: inline-block; */
+  float: left;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.graphpedia-word h4{
+  font-size: 25pt;
+  color: #FFFFFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav-nav{
+  z-index: 2;
+  position: relative;
+  float: right;
+  background-color: rgba(86, 7, 105, 1);
+  width: 70%;
+  padding:10px;
+  height: 69px;
+  box-sizing: border-box;
+	text-align:right;
+}
+#nav-nav ul{
+  float: right;
+  margin-top: 12px;
+}
+#nav-nav ul li{
+  display: inline-block;
+  padding:20px;
+  color:rgb(255, 255, 255);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:20px;
+  margin-top:-20px;
+  box-sizing: border-box;
+}
+#nav-nav img{
+  /* margin: 7px 15px 0px 15px; */
+  border-radius: 50%;
+  border: 10px solid rgb(71, 21, 94);
+  /* float: right; */
+}
+#nav-nav .dropbtn {
+  color: white;
+  cursor: pointer;
+  border:  3px solid rgb(71, 21, 94);
+}
+
+/* ================== PENDAFTARAN ================= */
+
+#daftar{
+  height: 180vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  grid-gap: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 180vh;
+  padding: 40px;
+  justify-content: center;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  text-align: center;
+  width: 80vw;
+  height: 145vh;
+  font-size: 30px;
+}
+.card-daftar {
+  box-shadow: 0px 5px 16px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 20px;
+  height: 155vh;
+  overflow: hidden;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.card-daftar h2{
+  border-radius: 0;
+  padding: 20px 0;
+  color: #FFFFFF;
+  background-color: rgb(71, 21, 94);
+}
+.card-daftar form{
+  padding: 50px 15px 40px;
+  justify-content: center;
+  text-align: center;
+}
+.card-daftar form > div{
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+.card-daftar form label{
+  font-size: 16pt;
+}
+#daftar input[type=text]{
+  width: 80%;
+  padding: 8px 20px;
+  margin: 8px auto 16px;
+  font-size: 14pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid rgb(206, 206, 206);
+  border-radius: 7px;
+}
+#daftar select{
+  width: 50%;
+  padding: 8px 20px;
+  margin: 8px 0 16px;
+  font-size: 14pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid rgb(206, 206, 206);
+  border-radius: 7px;
+}
+#daftar textarea{
+  width: 80%;
+  padding: 20px 20px;
+  margin: 8px auto;
+  font-size: 14pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  box-sizing: border-box;
+  border: 3px solid rgb(140, 37, 187);
+  border-radius: 7px;
+}
+#daftar input[type=submit]{
+  border: none;
+  outline: 0;
+  border-radius:7px;
+  background-color: rgb(140, 37, 187);
+  padding: 10px 30px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16pt;
+  transition: 0.3s;
+}
+#daftar input[type=submit]:hover{
+  background-color: rgb(71, 21, 94);
+  color: white;
+}

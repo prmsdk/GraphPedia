@@ -1,0 +1,419 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* ============= HEADER ============= */
+.sticky {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(71, 21, 94);
+  color: #FFFFFF;
+  box-shadow: 0 5px 10px black;
+  z-index: 99;
+}
+.sticky nav ul li{
+  display: inline-block;
+  padding:20px;
+  color:rgb(255, 255, 255);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:20px;
+  margin-top:-20px;
+  box-sizing: border-box;
+}
+#logo{
+  z-index: 2;
+  position: relative;
+  float: left;
+  background-color: rgba(86, 7, 105, 0);
+  width: 30%;
+  padding:10px;
+  height: 69px;
+  box-sizing: border-box;
+	text-align:left;
+}
+#logo a{
+  text-decoration: none;
+}
+.graphpedia-logo{
+  float: left;
+  /* display: inline-block; */
+  padding-right: 15px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.graphpedia-logo img{
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.graphpedia-word{
+  /* display: inline-block; */
+  float: left;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+.graphpedia-word h4{
+  font-size: 25pt;
+  color: #FFFFFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.graphpedia-word span{
+  font-size: 25pt;
+  color: #FFFFFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+nav{
+  z-index: 2;
+  position: relative;
+  float: right;
+  background-color: rgba(86, 7, 105, 0);
+  width: 70%;
+  padding:10px;
+  height: 69px;
+  box-sizing: border-box;
+	text-align:right;
+}
+nav ul{
+  float: right;
+  margin-top: 12px;
+}
+nav ul li{
+  display: inline-block;
+  padding:20px;
+  color:rgb(71, 21, 94);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:20px;
+  margin-top:-20px;
+  box-sizing: border-box;
+}
+nav img{
+  /* margin: 7px 15px 0px 15px; */
+  border-radius: 50%;
+  border: 10px solid rgb(71, 21, 94);
+  /* float: right; */
+}
+.dropbtn {
+  color: white;
+  cursor: pointer;
+  border:  3px solid rgb(71, 21, 94);
+}
+.dropdown {
+  position: relative;
+  /* display: inline-block; */
+  margin: 7px 15px 0px 15px;
+  border-radius: 50%;
+  float: right;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: -2px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+.dropdown-content a {
+  color: rgb(71, 21, 94);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content i{
+  margin-right: 15px;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/* ============= JUMBOTRON ============== */
+#jumbotron{
+  height: 94vh;
+  background-color: rgb(226, 226, 226);
+  background-image: url("../img/jumbotron.jpg");
+  background-size: cover;
+}
+#jumbotron p{
+  color: white;
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15pt;
+  line-height: 25px;
+  text-align: justify;
+  top: 25vh;
+  left: 6vh;
+  width: 23vw;
+}
+.tombol-daftar{
+  position: absolute;
+  text-decoration: none;
+  top: 64vh;
+  left: 6vh;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: white;
+}
+.tombol-daftar:hover .tombol-animasi{
+  opacity: 1;
+  clip-path: circle(150% at 50px 0px);
+}
+.tombol-animasi{
+  position: absolute;
+  top: 0px;
+  background-color: rgb(140, 37, 187);
+  opacity: 0;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  clip-path: circle(0% at 100% 100%);
+  transition: 0.5s;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 25px;
+}
+.tombol-daftar h4{
+  text-decoration: none;
+  margin-top: 10px;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 25px;
+  color: rgb(71, 21, 94);
+}
+.tombol-animasi h4{
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ================== PRODUK ================ */
+#produk{
+  background-color: white;
+  padding: 60px 0 0;
+}
+#produk h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 40pt;
+  padding: 30px 0;
+  background-color: white;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 20%;
+  margin: 10px 10px 35px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.card {
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.price {
+  color: rgb(71, 21, 94);
+  height:40px;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.card h3{
+  font-size: 16pt;
+  margin-top: -20px;
+  height:40px;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 15px 15px 22px;
+  background-color: rgb(71, 21, 94);
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin: 0;
+  transition: 0.3s;
+}
+.card button:hover {
+  background-color: white;
+  padding: 10px 15px 22px;
+  border-top: 5px solid rgb(71, 21, 94);
+  color: rgb(71, 21, 94);
+  transition: 0.3s;
+}
+#btn-load{
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+#produk #load{
+  text-decoration: none;
+  border: none;
+  outline: 0;
+  border-radius:7px;
+  background-color: rgb(140, 37, 187);
+  padding: 10px 30px;
+  text-align: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16pt;
+  transition: 0.3s;
+}
+#produk #load:hover{
+  background-color: rgb(71, 21, 94);
+  color: white;
+}
+
+/* ============== KONTAK KAMI ============== */
+
+#kontak{
+  padding: 60px 0;
+  background-color: #fafafa;
+}
+#kontak h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 40pt;
+  padding: 30px 0;
+}
+.flex-kontak {
+  display: flex;
+  justify-content: center;
+}
+.flex-kontak > div {
+  width: 42.7%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 14pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  box-sizing: border-box;
+  border: 3px solid rgb(140, 37, 187);
+  border-radius: 7px;
+}
+textarea{
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  font-size: 14pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  box-sizing: border-box;
+  border: 3px solid rgb(140, 37, 187);
+  border-radius: 7px;
+}
+input[type=submit]{
+  border: none;
+  outline: 0;
+  border-radius:7px;
+  background-color: rgb(140, 37, 187);
+  padding: 10px 30px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16pt;
+  transition: 0.3s;
+}
+input[type=submit]:hover{
+  background-color: rgb(71, 21, 94);
+  color: white;
+}
+
+/* ============== FOOTER =========== */
+#footer{
+  background-color: rgb(50, 10, 68);
+}
+.flex-footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(50, 10, 68);
+  padding: 30px 0;
+}
+.flex-footer > div {
+  background-color: rgb(50, 10, 68);
+  width: 30%;
+  margin: 10px;
+  font-size: 20px;
+}
+.flex-footer a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  line-height: 28px;
+}
+#footer p{
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(71, 21, 94);
+  color: #FFFFFF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
