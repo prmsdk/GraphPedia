@@ -18,7 +18,7 @@ if(isset($_SESSION['admin_login'])){
         
 
     <link rel="icon" type="image/png" href="src/img/icons/cap.png">
-    <title>Abadi Cahaya Perkasa</title>
+    <title>PeTakon</title>
 </head>
 <body>
   
@@ -62,7 +62,7 @@ if(isset($_SESSION['admin_login'])){
   <div class="container-fluid-lg">
   <header id="navbar">
     <nav id="logo" class="m-0 navbar navbar-expand-lg navbar-dark nav-tr">
-      <a class="navbar-brand logo" href="#slidercontainer" style="color:#F69322;">ABADI CAHAYA PERKASA</a>
+      <a class="navbar-brand logo ml-3" href="#slidercontainer" style="color:#F69322;"><img src="src/img/icons/cap.png" alt="logo" width="24px" class="img-fluid mt-n2 mr-2">PE<span style="color:#25A8E0;">TAKON</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

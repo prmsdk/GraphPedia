@@ -58,10 +58,10 @@ $pdf->isFinished = false;
 $pdf->SetFont('Times','B',16);
 // mencetak string 
 $pdf->Image('../../src/img/icons/cap.png',20,10,22,22);
-$pdf->Cell(190,12,'Cahaya Abadi Perkasa',0,1,'C');
+$pdf->Cell(190,12,'PeTakon',0,1,'C');
 $pdf->SetFont('Times','',10);
-$pdf->Cell(190,7,'Jl. Kauman 312 RT 04, Mangli, Kecamatan Kaliwates',0,1,'C');
-$pdf->Cell(190,4,'Kabupaten Jember - (0331)412990',0,1,'C');
+$pdf->Cell(190,7,'Jl. Karimata Gg. Masjid No. 1, Kec. Sumbersari',0,1,'C');
+$pdf->Cell(190,4,'Kabupaten Jember - (0331) 412990',0,1,'C');
 $pdf->Cell(190,4,'','B',1);
 $pdf->Cell(190,1,'','B',1);
 
