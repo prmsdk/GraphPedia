@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="src/css/daftar.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Pendaftaran</title>
+</head>
+<body>
+  <header id="navbar">
+    <div id="logo-logo">
+      <div class="graphpedia-logo">
+          <a href="index.html#jumbotron"><img src="src/img/graphpedia.jpg" widht="40" height="40" alt=""/></a>
+      </div>
+      <div class="graphpedia-word">
+          <a href="index.html#jumbotron"><h4><span>Graph</span>Pedia</h4></a>
+      </div>
+    </div>
+    <nav id="nav-nav">
+      <div class="dropdown">
+        <img src="src/img/noprofil.jpg" alt="noprofil" width="30" height="30" class="dropbtn">
+        <div class="dropdown-content">
+          <a><i class="fa fa-dollar"></i>$32.00</a>
+          <a href="#"><i class="fa fa-user"></i>Profil</a>
+          <a href="#"><i class="fa fa-cogs"></i>Setting</a>
+          <a href="#"><i class="fa fa-sign-out"></i>Logout</a>
+        </div>
+      </div>
+      <ul>
+        <a href="index.html#produk"><li>Produk</li></a>
+        <a href="index.html#kontak"><li>Kontak</li></a>
+        <a href="index.html#footer"><li>About</li></a>
+        <li><i class="fa fa-bell fa-1x"></i></li>
+        <li><a href="keranjang.html"><i class="fa fa-shopping-cart fa-1x"></a></i></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="keranjang">
+    <div class="grid-container">
+      <div>
+        <div class="card-keranjang">
+          <h2>Keranjang</h2>
+          <form action="index.html" method="POST">
+            <div class="grid-cont">
+              <div class="item1">
+                <img src="src/img/produk8.jpg" alt="Back to School">
+              </div>
+              <div class="item2">
+                <h5>Back to School</h5>
+                <h6>$9.99</h6>
+              </div>
+              <div>
+                <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" pattern="" inputmode="">
+              </div>
+              <div class="item3">
+                <button id="info"><i class="fa fa-info"></i></button">
+                <button id="trash"><i class="fa fa-trash"></i></button>
+              </div> 
+            </div>
+            <hr>
+            <div class="grid-cont">
+              <div class="item1">
+                <img src="src/img/produk5.jpg" alt="Back to School">
+              </div>
+              <div class="item2">
+                <h5>Flat Citizen</h5>
+                <h6>$14.99</h6>
+              </div>
+              <div>
+                <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" pattern="" inputmode="">
+              </div>
+              <div class="item3">
+                <button id="info"><i class="fa fa-info"></i></button>
+                <button id="trash"><i class="fa fa-trash"></i></button>
+              </div> 
+            </div>
+            <hr>
+            <div class="grid-cont">
+              <div class="item1">
+                <img src="src/img/produk7.jpg" alt="Back to School">
+              </div>
+              <div class="item2">
+                <h5>Isometric Web</h5>
+                <h6>$19.99</h6>
+              </div>
+              <div>
+                <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" pattern="" inputmode="">
+              </div>
+              <div class="item3">
+                <button id="info"><i class="fa fa-info"></i></button>
+                <button id="trash"><i class="fa fa-trash"></i></button>
+              </div> 
+            </div>
+            <hr>
+            <div class="grid-cont2">
+              <div class="total">
+                <h4>Total :</h4>
+              </div>
+              <div class="jumlah">
+                <h4>$44.97</h4>
+              </div>
+            </div>
+            <div class="grid-cont2">
+              <div></div>
+              <div class="bayar">
+                <input type="submit" name="bayar" value="Bayar">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="flex-footer">
+      <div>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Knowledge</a></li>
+          <li><a href="#">Vendor</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">Privacy & Policy</a></li>
+          <li><a href="#">Refferal</a></li>
+          <li><a href="#">Forum</a></li>
+        </ul>
+      </div>
+    </div>
+    <p>2019 Copyright &copy; Primasdika Yunia</p>
+  </footer>
+
+  <script src="src/js/script.js"></script>
+</body>
+</html>

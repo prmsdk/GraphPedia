@@ -1,0 +1,388 @@
+@font-face {
+font-family: 'montserratsemibold';
+src: url('../fonts/montserrat-semibold-webfont.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face{
+font-family: 'montserratbold';
+src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face{
+font-family: 'montserratlight';
+src: url('../fonts/montserrat-light-webfont.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face{
+font-family: 'montserratmedium';
+src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+.font-m-bold{
+    font-family: 'montserratbold', Verdana, sans-serif;
+}
+
+.font-m-semi{
+    font-family: 'montserratsemibold', Verdana, sans-serif;
+}
+
+.font-m-med{
+    font-family: 'montserratmedium', Verdana, sans-serif;
+}
+
+.font-m-light{
+    font-family: 'montserratlight', Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.anchor {
+    display: block;
+    height: 50px;
+    margin-top: -50px;
+    visibility: hidden;
+}
+
+/* ======= NAV BAR ======= */
+
+.show-cart li {
+    display: flex;
+  }
+
+.nav-tr{
+    position: absolute;
+    top: -1px;
+    background-color: rgb(17, 17, 17, 1);
+    z-index: 3;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(15, 14, 22);
+    box-shadow: 0 5px 10px black;
+    z-index: 9;
+}
+
+#info p{
+    background-color: rgb(15, 14, 22);
+}
+
+.logo{
+    font-family: 'montserratbold', Verdana, sans-serif;
+    font-size: 24px;
+    color: #F69322;
+}
+
+.nav-item, .nav-link{
+    transition: 0.3s;
+}
+
+.nav-item:hover, .nav-link:hover{
+    margin-bottom: -2px;
+    border-bottom: 2px solid #F69322;
+}
+
+.nav-custom{
+    display: inline-block;
+    font-family: 'montserratlight', Verdana, sans-serif;
+    color: white;
+}
+
+.nav-custom:hover{
+    display: inline-block;
+    font-family: 'montserratsemibold', Verdana, sans-serif;
+    color: #25A8E0;
+}
+
+.icon-custom:hover{
+    border-bottom: 0px solid #F69322;
+}
+
+.notif-custom p{
+    margin-bottom: 0;
+}
+
+/* ======= CARA KERJA ======= */
+
+#carakerja{
+    background-color: #25A8E0;
+    padding: 40px 0;
+}
+
+#testimoni{
+    padding: 40px 0;
+    background-image: url("../img/icons/testi.jpg");
+    background-size: cover;
+}
+
+#carakerja h2, #testimoni h2{
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.card-ck, .daftar-card{
+    min-height: 200px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.card-ck img{
+    max-height: 150px;
+}
+
+.card-ck h5{
+    font-size: 17px;
+}
+
+/* ======== PRODUK ======== */
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.1);
+}
+
+/* ======== PORTOFOLIO ======== */
+
+.portfolio-cap img{
+    max-height: 300px;
+}
+
+.daftar-absolute{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+
+#daftar{
+    background-image: url('../img/slider/print-6.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.daftar-gambar{
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    z-index: 0;
+}
+
+.about-absolute{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+
+#about{
+    background-image: url('../img/slider/print-3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.about-gambar{
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    z-index: 0;
+}
+
+
+/* ======= FOOTER ======== */
+
+iframe{
+    padding: 0;
+}
+
+#footer{
+    padding: 50px 0;
+}
+
+.col-lg-3{
+    text-align: center;
+}
+
+.copyright{
+    margin: 0;
+    padding-top: 7px;
+    color: white;
+    background-color: rgb(15, 14, 22);
+}
+
+/* ============ LOGIN =========== */
+
+.login-bg{
+    z-index: 10;
+}
+
+.text-login{
+    color: #25A8E0;
+}
+
+.alert-login{
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: 19;
+    width: 50%;
+    text-align: center;
+}
+
+.modal-header h5{
+    margin-left: auto;
+    font-size: 30px;
+}
+
+.bg-daftar{
+    background-image: url('../img/stuff/doodle.jpg');
+    background-repeat: repeat;
+    background-size: 200px 200px;
+}
+
+.bg-form-daftar{
+    border-bottom: 2px solid #F69322;
+}
+
+.regis-success p{
+    line-height: 18px;
+}
+
+.regis-success{
+    height: 60vh;
+}
+
+@media (min-width: 768px) { 
+    .nav-tr{
+        position: absolute;
+        background-color: rgb(17, 17, 17, 0.75);
+        z-index: 2;
+    }
+
+    .col-lg-3{
+        text-align: left;
+    }
+}
+
+/* Utility */
+
+.bg-biru{
+    background-color: #25A8E0;
+}
+.bg-oren{
+    background-color: #F69322;
+}
+.text-biru{
+    color: #25A8E0;
+}
+.text-oren{
+    color: #F69322;
+}
+.btn-biru{
+    background-color: #25A8E0;
+    color: white;
+}
+.btn-biru:hover{
+    background-color: #1698cf;
+    color: white;
+}
+.btn-oren{
+    background-color: #F69322;
+    color: white;
+}
+.btn-oren:hover{
+    background-color: #da7c11;
+    color: white;
+}
+
+.box{
+    display: none;
+}
+
+.box_warna{
+    display: none;
+}
+
+
+/* =================== TESTIMONIAL ================== */
+
+.testi h2{
+	position: relative;
+}
+.testi p{
+    font-weight: 200;
+    font-family: "montserratlight";
+    line-height: 20px;
+}
+.testi h2::after{
+	content: "";
+	width: 130px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #FFF;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.testi .carousel-inner .carousel-item .img-box{
+	width: 135px;
+	height: 135px;
+}
+.testi .carousel-control-prev{
+	left: -100px;
+}
+.testi .carousel-control-next{
+	right: -100px;
+}
+.testi .carousel-indicators{
+	top: 320px;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+	.testi .carousel-inner .carousel-item p{
+		font-size: 14px;
+	}
+	.testi .carousel-control-prev{
+		left: -40px;
+	}
+	.testi .carousel-control-next{
+		right: -40px;
+	}
+ 	.testi .carousel-indicators{
+		top: 400px;
+	}
+}
+
+#footer li a{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
