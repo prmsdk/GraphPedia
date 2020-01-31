@@ -53,11 +53,11 @@
                     <div class="font-m-semi">
                         <h6>Langkah-Langkah Pembayaran Secara Online</h6>
                     </div>
-                <p>1. Cek kembali pesanan<br>- Silahkan lengkapi data di atas, dengan memilih salah satu warna, bahan, dan ukuran. kemudian upload desain kamu jika ada. input jumlah cetak yang diinginkan.</br></p>
-                <p>2. Pilih bank<br>- Pastikan data yang telah dipilih sudah benar, dan cek kembali desain yang telah anda upload.</br></p>
-                <p>3. Transfer ke nomer rekening yang tertera<br>- Silahkan pilih salah metode pembayaran Uang muka atau Lunas, jika masih ingin ada yang ingin dicetak silahkan klik tombol "Keranjang", jika ingin langsung membayar silahkan klik "Bayar".</br></p>
-                <p>4. Upload bukti pembayaran<br>- Tunggu notifikasi dari kami jika ada kesalahan atau pemberitahuan tentang pesanan anda.</br></p>
-                <p>5. Diambil atau Dikirim<br>- Setelah selesai pembayaran produksi barang akan diproses jika sudah selesai bisa diambil langsung ke percetakan atau bisa juga kita kirim melalui beberapa kurir yang sudah bekerja sama dengan kami diantaranya.</br></p>
+                <p>1. Cek kembali pesanan<br>Silahkan lengkapi data di atas, dengan memilih salah satu warna, bahan, dan ukuran. kemudian upload desain kamu jika ada. input jumlah cetak yang diinginkan.</br></p>
+                <p>2. Pilih bank<br>Pastikan data yang telah dipilih sudah benar, dan cek kembali desain yang telah anda upload.</br></p>
+                <p>3. Transfer ke nomer rekening yang tertera<br>Silahkan pilih salah metode pembayaran Uang muka atau Lunas, jika masih ingin ada yang ingin dicetak silahkan klik tombol "Keranjang", jika ingin langsung membayar silahkan klik "Bayar".</br></p>
+                <p>4. Upload bukti pembayaran<br>Tunggu notifikasi dari kami jika ada kesalahan atau pemberitahuan tentang pesanan anda.</br></p>
+                <p>5. Diambil atau Dikirim<br>Setelah selesai pembayaran produksi barang akan diproses jika sudah selesai bisa diambil langsung ke percetakan atau bisa juga kita kirim melalui beberapa kurir yang sudah bekerja sama dengan kami diantaranya.</br></p>
                 </div>
             </div>
         </div>

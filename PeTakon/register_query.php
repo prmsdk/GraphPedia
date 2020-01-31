@@ -6,7 +6,7 @@
   include 'includes/config.php';
   include 'api_key.php';
   
-  require 'C:\xampp\sendgrid\vendor\autoload.php';
+  require 'sendgrid/vendor/autoload.php';
 
     $nama_user = $_POST['nama_user'];
     $email_user = $_POST['email_user'];
@@ -34,7 +34,7 @@
     if($password_user == $repassword_user){
       $password_user = md5($repassword_user);
 
-      $result = mysqli_query($con, "INSERT INTO user(USER_ID, USER_NAMA_LENGKAP, USER_EMAIL, USER_NO_HP, USER_USERNAME, USER_PASSWORD, USER_HASH) VALUES('$id_user','$nama_user','$email_user','$no_hp_user','$usename_user','$password_user','$hash')");
+      $result = mysqli_query($con, "INSERT INTO user(USER_ID, USER_NAMA_LENGKAP, USER_EMAIL, USER_NO_HP, USER_USERNAME, USER_PASSWORD, USER_HASH) VALUES('$id_user','$nama_user','$email_user','$no_hp_user','$username_user','$password_user','$hash')");
       
       $_SESSION['id_user'] = $id_user;
 
@@ -50,10 +50,10 @@
         $pesan = 'Terimakasih telah mendaftar dan bergabung dengan kami!<br>
         Silahkan cocokkan data diri yang kamu daftarkan dengan data yang kami terima dibawah,<br> 
         Mohon aktivasi akun anda untuk memaksimalkan fitur dari aplikasi kami.';
-        $link = 'http://localhost/GolonganD_Kelompok6/CAP/register_verify.php?email='.$email_user.'&hash='.$hash;
+        $link = 'http://localhost/GraphPedia/PeTakon/register_verify.php?email='.$email_user.'&hash='.$hash;
       
         $email = new \SendGrid\Mail\Mail(); 
-        $email->setFrom($our_email, 'Cahaya Abadi Perkasa');
+        $email->setFrom($our_email, 'PeTakon');
         $email->setSubject($subject);
         $email->addTo($email_user, $nama_user);
         $message = '';

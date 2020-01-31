@@ -267,15 +267,15 @@
             </form>
             </div>
             <div class="pt-5 mb-4">
-                <div class="card shadow col-lg p-5 bg-light text-dark">
+                <div class="card text-justify shadow col-lg p-5 bg-light text-dark">
                     <div class="font-m-semi">
                         <h6>Langkah-Langkah Pemesanan Cetak Secara Online</h6>
                     </div>
-                <p>1. Lengkapi formulir di atas<br>- Silahkan lengkapi data di atas, dengan memilih salah satu warna, bahan, dan ukuran. kemudian upload desain kamu jika ada. input jumlah cetak yang diinginkan.</br></p>
-                <p>2. Konfirmasi Pemesanan<br>- Pastikan data yang telah dipilih sudah benar, dan cek kembali desain yang telah anda upload.</br></p>
-                <p>3. Pembayaran<br>- Silahkan pilih salah metode pembayaran Uang muka atau Lunas, jika masih ingin ada yang ingin dicetak silahkan klik tombol "Keranjang", jika ingin langsung membayar silahkan klik "Bayar".</br></p>
-                <p>4. Proses Produksi<br>- Tunggu notifikasi dari kami jika ada kesalahan atau pemberitahuan tentang pesanan anda.</br></p>
-                <p>5. Diambil atau Dikirim<br>- Setelah selesai produksi barang bisa diambil langsung ke toko atau bisa juga kita kirim melalui beberapa kurir yang sudah bekerja sama dengan kami diantaranya.</br></p>
+                <p>1. Lengkapi formulir di atas<br>Silahkan lengkapi data di atas, dengan memilih salah satu warna, bahan, dan ukuran. kemudian upload desain kamu jika ada. input jumlah cetak yang diinginkan.</br></p>
+                <p>2. Konfirmasi Pemesanan<br>Pastikan data yang telah dipilih sudah benar, dan cek kembali desain yang telah anda upload.</br></p>
+                <p>3. Pembayaran<br>Silahkan pilih salah metode pembayaran Uang muka atau Lunas, jika masih ingin ada yang ingin dicetak silahkan klik tombol "Keranjang", jika ingin langsung membayar silahkan klik "Bayar".</br></p>
+                <p>4. Proses Produksi<br>Tunggu notifikasi dari kami jika ada kesalahan atau pemberitahuan tentang pesanan anda.</br></p>
+                <p>5. Diambil atau Dikirim<br>Setelah selesai produksi barang bisa diambil langsung ke toko atau bisa juga kita kirim melalui beberapa kurir yang sudah bekerja sama dengan kami diantaranya.</br></p>
                 </div>
             </div>
         </div>

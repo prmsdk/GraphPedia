@@ -120,7 +120,7 @@ $message = '
 <!-- HEADER -->
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
     <tr>
-        <td bgcolor="#F69322" align="center" style="padding: 8px; font-size:9pt; color: #fff; font-family: Helvetica, Arial, sans-serif;">Cahaya Abadi Perkasa</td>
+        <td bgcolor="#F69322" align="center" style="padding: 8px; font-size:9pt; color: #fff; font-family: Helvetica, Arial, sans-serif;">PeTakon</td>
     </tr>
     <tr>
         <td bgcolor="#ffffff" align="center">
@@ -133,7 +133,7 @@ $message = '
                 <tr>
                     <td align="center" valign="top" style="padding: 40px 0 15px;" class="logo">
                         <a href="#" target="_blank">
-                            <img alt="Logo" src="https://lh3.googleusercontent.com/5riLPgwysWPuWJSDGBXfVrhsM_7E0ezC5BLWf2sY6O7TaianZU9pIftPsg5ylvl32kgYJhPLaPTHzg-NC0S4tbi07lP6G-Iya_rIkdN70vaErvxijVD1WkC4A0nG-MkLF9k1MeY-fofRB5rdyT8_m4MBiE58vCVYaHqRr757hXwhgqQc3kkejaxNBY-dN0u0D8YJVTA2X3xUvRMSLyAn3XgtB5hr3o_Z_1q6fXcamcoGdBub1z_QdcdzQ0FIZsEqbkPML1dYRzvUp7-8_vAYSiIhfVYy3Fq2IH4znx-RP_G1vl8i0Mhh16e6_3r70fk0ixy8kxGOwWbJZI_UkshJevajVqLwf7yJOk5G62Uc9JDGmnMU5vxQe6L_gFocAKEltbP9gmfeb_DwXgjskK5koXIVmSayCI0TVCcZLrR-gCImU6gtSnetVsBAWxxLdKvEwryLZXZlNfg750XzQpDa1bjeeIE4d1qNNx-iQDlWbCKhoHbWMAgHy9LW92i8NHGTywJ5DuiNDWimX29rSVxvNcHCb9xDEhW9e5mAhVHjq5HN7hj39_TSIaRMN2UPVDN5X2RahBfJsMYU5zPSOC4I372c6POQm02zfskdvHahE1Z4_zfow2zMFhkeMFXHvZW7Ug5xVOfZW5TLxwhfzx9yudojWpM3aGy5Vd0QdDC8O5oRj53VvC4tFm9XaRBBrn5fj88sp9AYnF9RYvDuQNKQWmYHhmiVQGqr2JMF655fFw=w299-h296-no" width="60" height="60" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px;" border="0">
+                            <img alt="Logo" src="https://lh3.googleusercontent.com/PbsBJnYc7uovl3Ku5f5MGSdiciI65-Iu37h_1oZ5tFnCSjCF4TGHCJ0pc0P5JjFCFZc1EVZxhu9wK_PUMGd6HsMaEpPJ5C73qD0PqCdqwK9CR-LSNGqHvUk1nja9SRIu9hn_XL_V4NbHMXuK4XNtvp5viaaTvJVO9tGP2RvMiaXpLQNvOsgEwtNOGSaWCpJ9jcJMPf_n0t-NOBpGIWD-w54qNbpWMRcjUdJwtYytPKSlsiBKr5hUBoPxYh4nsfr9iuxIx_CspBqLzaXS90Yxug1MpbIAcZu5X83YXDhfg8tvYMk0Ne08ZrRwt-orqSmmQaTyfrU3XHyK57Jz3MtS81cdQICpIAQhuM3aK5eZXD7Lewbd5Ak4TU-A-FKh55s1WoufE2hu763ICjDhV-ufPNOAoqj9hrZVC8yYgnoIz4pepo0_Osm5HRL-WmZt61zr9mCJCGMSnhUJWSAoGFTo_UQOaUsi9HBRgW0KXprJdAHEcjq9MfMvbJZ15bJ0_9xRdLXy03q1Kxxs_MXCQqsNH7lMQUzOi0f5-m-c2vkFTflULMhpEgK3ZdJxEfr4VnKAQE6LwHFMHoGINZkW7bKaUY9Zw1OFuttdQo-nkeDpi5B0Yl_LE0GqGeFj66n7_9DMBJLpKLlCjA6AQF2UAWYuC8ONLUCEVeGpWuGegRC7e2qt4JIxSoVaRwRCs6hW0UFPs4MzlhxwVfr0L9PywgbGm-ya1xHizDum1gQe4LX6=w331-h325-no" width="60" height="60" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px;" border="0">
                         </a>
                     </td>
                 </tr>
@@ -268,7 +268,7 @@ $message = '
                                 <td align="center" style="font-size: 24px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;" class="padding-copy">Bagaimana cara mengubah alamat saya?</td>
                             </tr>
                             <tr>
-                                <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">Anda dapat mengubah alamat anda pada profil anda atau dengan mengunjungi link ini <a href="http://localhost/GolonganD_Kelompok6/CAP/user_profil.php">Link Ubah</a> atau klik tombol dibawah ini.</td>
+                                <td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">Anda dapat mengubah alamat anda pada profil anda atau dengan mengunjungi link ini <a href="http://localhost/GraphPedia/PeTakon/user_profil.php">Link Ubah</a> atau klik tombol dibawah ini.</td>
                             </tr>
                             <tr>
                                 <td align="center">
@@ -278,7 +278,7 @@ $message = '
                                             <td align="center" style="padding-top: 25px;" class="padding">
                                                 <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
                                                     <tr>
-                                                        <td align="center" style="border-radius: 3px;" bgcolor="#F69322"><a href="http://localhost/GolonganD_Kelompok6/CAP/user_profil.php" target="_blank" style="font-size: 16px; font-weight: 600; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; border-radius: 3px; padding: 15px 25px; border: 1px solid #F69322; display: inline-block;" class="mobile-button">Ubah</a></td>
+                                                        <td align="center" style="border-radius: 3px;" bgcolor="#F69322"><a href="http://localhost/GraphPedia/PeTakon/user_profil.php" target="_blank" style="font-size: 16px; font-weight: 600; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; border-radius: 3px; padding: 15px 25px; border: 1px solid #F69322; display: inline-block;" class="mobile-button">Ubah</a></td>
                                                     </tr>
                                                 </table>
                                             </td>
@@ -312,7 +312,7 @@ $message = '
                         <br>
                         +62 81 249 882 52 (Hp) &nbsp;&nbsp;|&nbsp;&nbsp; (0331) 412990 (Telp) 
                         <br>
-                        <span style="color: #fff; text-decoration: none;">Cahaya Abadi Perkasa</span>
+                        <span style="color: #fff; text-decoration: none;">PeTakon</span>
                         <span style="font-family: Arial, sans-serif; font-size: 12px;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
                         <span href="http://litmus.com" target="_blank" style="color: #fff; text-decoration: none;">&copy; 2020</span>
                     </td>

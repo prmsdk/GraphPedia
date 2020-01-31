@@ -193,7 +193,7 @@ $('.add-to-cart').click(function() {
     // var banyak = Number($(this).data('banyak'));
     shoppingCart.addItemToCart( var2, var3, var4, count);
     displayCart();
-    location.href="http://localhost/GolonganD_Kelompok6/CAP/index.php";
+    location.href="http://localhost/GraphPedia/PeTakon/index.php";
   });
 });
 
@@ -203,7 +203,7 @@ $('.add-to-bayar').click(function() {
     var count = Number($(this).data('count'));
     shoppingCart.addItemToCart( var2, var3, var4, count);
     displayCart();
-    location.href="http://localhost/GolonganD_Kelompok6/CAP/pembayaran.php";
+    location.href="http://localhost/GraphPedia/PeTakon/pembayaran.php";
   });
 });
 
@@ -230,10 +230,10 @@ function displayCart() {
   for(var i in cartArray) {
     output += "<tr>"
       + "<td>" + cartArray[i].produk +  " / " + cartArray[i].warna + " / "  + cartArray[i].bahan + " / " + cartArray[i].ukuran + "</td>" 
-      + "<td><div class='input-group'><button class='minus-item input-group-addon btn btn-primary' data-produk=" + cartArray[i].produk + ">-</button>"
-      + "<input type='number' id='jumlah' class='item-count form-control' data-produk='" + cartArray[i].produk + "' value='" + cartArray[i].count + "'>"
+      + "<td style='width:145px;'><div class='input-group'><button class='minus-item input-group-addon btn btn-primary' data-produk=" + cartArray[i].produk + ">-</button>"
+      + "<input type='text' readonly id='jumlah' class='item-count form-control' data-produk='" + cartArray[i].produk + "' value='" + cartArray[i].count + "'>"
       + "<button class='plus-item btn btn-primary input-group-addon' data-produk=" + cartArray[i].produk + ">+</button></div></td>"
-      + "<td><button class='delete-item btn btn-danger' data-produk=" + cartArray[i].produk + ">X</button></td>"
+      + "<td class='px-0'><button class='delete-item btn btn-danger' data-produk=" + cartArray[i].produk + ">X</button></td>"
       + " = " 
       + "<td>Rp." + rubah(cartArray[i].total) + "</td>" 
       +  "</tr>";
@@ -242,7 +242,7 @@ function displayCart() {
       + "<td>" + cartArray[i].produk + " / " + cartArray[i].warna + " / " + cartArray[i].bahan + " / " + cartArray[i].ukuran + "</td>" 
       + "<td>"+ cartArray[i].count +"</td>"
       + " = " 
-      + "<td>Rp. " + cartArray[i].total + "</td>" 
+      + "<td style='width:120px;'>Rp. " + cartArray[i].total + "</td>" 
       +  "</tr>"
       + "<input type='hidden' name='id_produk[]' value='" + cartArray[i].idproduk + "'>"
       + "<input type='hidden' name='nama_produk[]' value='" + cartArray[i].produk + "'>"

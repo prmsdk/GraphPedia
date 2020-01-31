@@ -2,7 +2,7 @@
 session_start();
 include '../../api_key.php';
 
-require 'C:\xampp\sendgrid\vendor\autoload.php';
+require '../../sendgrid/vendor/autoload.php';
 include '../includes/config.php';
 if(isset($_GET['status']) AND isset($_GET['id_pesanan'])){
   $status = $_GET['status'];
@@ -48,7 +48,7 @@ if(isset($_GET['status']) AND isset($_GET['id_pesanan'])){
       // $dotenv->load();
 
       $email = new \SendGrid\Mail\Mail(); 
-      $email->setFrom($our_email, 'Cahaya Abadi Perkasa');
+      $email->setFrom($our_email, 'PeTakon');
       $email->setSubject('Pesanan Anda Telah Selesai');
       $email->addTo($user_email, $user_nama);
       // $email->addContent("text/plain", "$message");

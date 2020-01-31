@@ -5,7 +5,7 @@ session_start();
 include 'includes/config.php';
 include 'api_key.php';
 
-require 'C:\xampp\sendgrid\vendor\autoload.php';
+require 'sendgrid/vendor/autoload.php';
 
 if(isset($_SESSION['id_user'])){
 
@@ -31,7 +31,7 @@ if(isset($_SESSION['id_user'])){
   $link = 'http://localhost/GolonganD_Kelompok6/CAP/register_verify.php?email='.$email_user.'&hash='.$hash;
 
   $email = new \SendGrid\Mail\Mail(); 
-  $email->setFrom($our_email, 'Cahaya Abadi Perkasa');
+  $email->setFrom($our_email, 'PeTakon');
   $email->setSubject($subject);
   $email->addTo($email_user, $nama_user);
   $message = '';
@@ -54,5 +54,5 @@ if(isset($_SESSION['id_user'])){
       echo 'Caught exception: '. $e->getMessage() ."\n";
   }
   print_r($email_user);
-
+  header("location:user_profil.php?pesan=berhasil_kirim");
 }

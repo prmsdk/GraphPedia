@@ -3,7 +3,7 @@
 include 'includes/config.php';
 include 'api_key.php';
 
-require 'C:\xampp\sendgrid\vendor\autoload.php';
+require 'sendgrid/vendor/autoload.php';
 
 if(isset($_POST['kontak_kirim'])){
 $nama_user = $_POST['kontak_nama'];

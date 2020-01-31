@@ -1,6 +1,6 @@
 <?php
 include 'api_key.php';
-require 'C:\xampp\sendgrid\vendor\autoload.php';
+require 'sendgrid/vendor/autoload.php';
 include 'includes/config.php';
 require 'includes/header.php';
 
@@ -178,7 +178,7 @@ if(isset($_POST['pemesanan_produk'])){
     
 
     $email = new \SendGrid\Mail\Mail(); 
-    $email->setFrom($our_email, 'Cahaya Abadi Perkasa');
+    $email->setFrom($our_email, 'PeTakon');
     $email->setSubject('Pesanan Diterima');
     $email->addTo($user_email, $user_nama);
     // $email->addContent("text/plain", "$message");
@@ -204,7 +204,7 @@ if(isset($_POST['pemesanan_produk'])){
     
 
   echo "<button type='button' id='clear-cart' class='clear-cart'></button>";
-  echo '<button onclick="window.location.href = '."'http://localhost/GolonganD_Kelompok6/CAP/verif_pembayaran.php?id_pesanan=$id_pesanan&id_bank=$id_bank'".';" id="verif_pembayaran">Home</button>';
+  echo '<button onclick="window.location.href = '."'http://localhost/GraphPedia/PeTakon/verif_pembayaran.php?id_pesanan=$id_pesanan&id_bank=$id_bank'".';" id="verif_pembayaran">Home</button>';
   // header("location:verif_pembayaran.php?id_pesanan=$id_pesana&id_bank=$id_bank");
 
     // $ekstensi_boleh = array('zip','rar','pdf'); //ekstensi file yang boleh diupload

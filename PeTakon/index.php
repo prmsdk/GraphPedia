@@ -16,8 +16,8 @@
 <section id="carakerja" class="text-center mt-5 font-m-semi">
     <div class="container container-fluid-md">
     <h2>CARA KERJA PEMESANAN</h2>
-        <div class="row text-left">
-        <div class="col-lg">
+        <div class="row justify-content-center text-left">
+        <div class="col-lg col-sm-10">
             <div class="card card-ck mb-3">
                 <div class="row no-gutters">
                     <div class="col-lg-5 col-sm-4">
@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg">
+        <div class="col-lg col-sm-10">
         <div class="card card-ck mb-3">
                 <div class="row no-gutters">
                     <div class="col-lg-5 col-sm-4">
@@ -49,7 +49,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg">
+        <div class="col-lg col-sm-10">
             <div class="card card-ck mb-3">
                 <div class="row no-gutters">
                     <div class="col-lg-5 col-sm-4">
@@ -86,7 +86,7 @@
             $link_port = $data_portfolio['LINK'];
             $gambar_port = $data_portfolio['GAMBAR'];
             ?>
-            <div class="col-lg-4 mb-3 col-md-6">
+            <div class="col-lg-4 mb-3 col-md-6 col-sm-10">
                 <div class="card mb-3 shadow">
                     <a class="portfolio-link" data-toggle="modal" href="#<?=$id_portfolio?>">
                     <img src="src/img/portfolio/<?=$gambar_port?>" style="height: 300px;" class="card-img-top img-fluid" alt="<?=$judul_port?>">
@@ -167,12 +167,12 @@ if($_SESSION['status']!='login'){
             <div class="col-lg">
                     <div class="row no-gutters justify-content-center text-light">
                         <div class="col-lg-8 col-sm-12 my-auto">
-                            <div class="card-body font-m-med ml-3 mt-1">
+                            <div class="card-body text-lg-left text-sm-center font-m-med ml-3 mt-1">
                                 <h2>Cetak Buku, Kalender, Brosur, dan hal lainnya yang kamu butuhkan tanpa ribet? <br><span>Segera Daftar Sekarang!</span></h2>
                                 <a class="btn btn-primary btn-lg" href="register_user.php" role="button">DAFTAR</a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-sm-0">
+                        <div class="col-lg-4 d-none d-md-flex">
                             <img src="src/img/stuff/laptop-01.png" class="img-fluid mt-4 ml-3" alt="CARA1">
                         </div>
                     </div>
@@ -223,7 +223,7 @@ $data_adm = mysqli_fetch_assoc($result_adm);
                 </div>
                 <div class="col-8">
                     <p>
-                    CV. <?=$data_adm['ADM_NAMA_USAHA_ADM']?> <br> <?=$data_adm['ADM_ALAMAT']?>
+                        <?=$data_adm['ADM_NAMA_USAHA_ADM']?> <br> <?=$data_adm['ADM_ALAMAT']?>
                     </p>
                 </div>
             </div>
@@ -260,11 +260,11 @@ $data_adm = mysqli_fetch_assoc($result_adm);
                 <div class="row no-gutters justify-content-center text-light">
                     <div class="col-lg-10 col-sm-12 my-auto">
                         <div class="card-body text-center my-auto font-m-med ml-3 mt-1">
-                            <h2>CV. <?=$data_adm['ADM_NAMA_USAHA_ADM']?></h2>
+                            <h2><?=$data_adm['ADM_NAMA_USAHA_ADM']?></h2>
                             <?php
                             $deskripsi_admin = $data_adm['ADM_DESC'];
                             ?>
-                            <h5 class="text-justify"><?=$deskripsi_admin?></h5>
+                            <h5 class="text-justify tentang"><?=$deskripsi_admin?></h5>
                         </div>
                     </div>
                 </div>

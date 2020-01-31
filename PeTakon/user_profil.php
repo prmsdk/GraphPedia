@@ -66,6 +66,13 @@ if(isset($_GET['pesan'])){
               <span aria-hidden="true">&times;</span>
             </button>
           </div>';
+  }else if($_GET['pesan']=='berhasil_kirim'){
+    echo '<div id="alert-login" class="alert alert-success text-center alert-dismissible fade show position-absolute alert-login mx-auto" role="alert">
+            Email <strong>Berhasil!</strong> dikirim, silahkan cek email anda untuk aktivasi akun!.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>';
   }
 }
 ?>

@@ -279,6 +279,12 @@ iframe{
     height: 60vh;
 }
 
+
+
+
+
+
+
 @media (min-width: 768px) { 
     .nav-tr{
         position: absolute;
@@ -366,6 +372,14 @@ iframe{
 	top: 320px;
 }
 
+
+
+
+
+
+
+
+
 @media (min-width: 320px) and (max-width: 640px) {
 	.testi .carousel-inner .carousel-item p{
 		font-size: 14px;
@@ -378,7 +392,10 @@ iframe{
 	}
  	.testi .carousel-indicators{
 		top: 400px;
-	}
+    }
+    .tentang{
+        font-size: 15px;
+    }
 }
 
 #footer li a{
@@ -386,3 +403,4 @@ iframe{
     color: #fff;
     text-decoration: none;
 }
+

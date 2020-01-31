@@ -3,7 +3,7 @@
   include 'includes/config.php';
   include 'api_key.php';
   
-  require 'C:\xampp\sendgrid\vendor\autoload.php';
+  require 'sendgrid/vendor/autoload.php';
 
   session_start();
   if(isset($_SESSION['id_user'])){
@@ -31,7 +31,7 @@
         $link = 'http://localhost/GolonganD_Kelompok6/CAP/register_verify.php?email='.$email_user.'&hash='.$hash;
       
         $email = new \SendGrid\Mail\Mail(); 
-        $email->setFrom($our_email, 'Cahaya Abadi Perkasa');
+        $email->setFrom($our_email, 'PeTakon');
         $email->setSubject($subject);
         $email->addTo($email_user, $nama_user);
         $message = '';
@@ -74,7 +74,7 @@
         // $dotenv->load();
     
         $email = new \SendGrid\Mail\Mail(); 
-        $email->setFrom($our_email, 'Cahaya Abadi Perkasa');
+        $email->setFrom($our_email, 'PeTakon');
         $email->setSubject('Reset Password');
         $email->addTo($email_user, $nama_user);
         $message = '

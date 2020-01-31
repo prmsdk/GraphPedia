@@ -24,7 +24,7 @@
                         $produk_id = $data_produk['ID_TAMPIL_PRODUK'];
                         $produk_nama = $data_produk['NAMA_TAMPIL_PRODUK'];
                     ?>
-                    <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mb-3">
                         <div class="card shadow mb-3">
                             <a href="produk_user.php?produk_id=<?=$produk_id?>">
                             <!-- Menampilkan Gambar Produk, Dipilih 1 aja -->

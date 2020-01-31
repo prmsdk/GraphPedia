@@ -20,7 +20,7 @@ $gambar = $data_slider['GAMBAR'];
     <!-- <div class="numbertext">1 / 3</div> -->
     <img src="src/img/slider/<?=$gambar?>">
     <div class="banner-absolute text-light text-center font-m-semi">
-    <h1 class="w-75 mx-auto"><?=$desc?></h1>
+    <p class="text w-75 mx-auto"><?=$desc?></p>
     <a class="btn btn-primary btn-lg mt-2" href="<?=$link?>" role="button"><?=$tombol?></a>
     </div>
 </div>
